@@ -1,0 +1,7 @@
+default: periodic_sync
+build_dir: C:/ncs/v2.7.0/zephyr/samples/bluetooth/periodic_sync/build
+domains:
+  - name: periodic_sync
+    build_dir: C:/ncs/v2.7.0/zephyr/samples/bluetooth/periodic_sync/build/periodic_sync
+flash_order:
+  - periodic_sync
